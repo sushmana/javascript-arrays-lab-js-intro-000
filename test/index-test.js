@@ -55,7 +55,7 @@ describe('Arrays', function() {
       expect(prependKitten("Arnold")).toEqual(["Arnold", "Milo", "Otis", "Garfield"])
 
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
-    })v
+    })
   })
 
   describe('removeLastKitten()', function() {
