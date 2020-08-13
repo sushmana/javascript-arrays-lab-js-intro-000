@@ -23,7 +23,7 @@ function appendKitten(name){
 }
 
 function prependKitten(name){
-  array2=[name,...kittens);
+  array2=[name,...kittens]
   return array2;
 }
 
